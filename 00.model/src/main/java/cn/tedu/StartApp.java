@@ -13,7 +13,6 @@ import javax.jms.Queue;
 @SpringBootApplication
 public class StartApp {
     public static void main(String[] args) {
-        //sssssssss
         SpringApplication.run(StartApp.class,args);
     }
     @Bean
