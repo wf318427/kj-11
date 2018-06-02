@@ -17,6 +17,7 @@ public class StartApp {
     }
     @Bean
     public Queue queue() {
+        //xxxxxxxxxxxxx
         return new ActiveMQQueue("sample.queue");
     }
 }
